@@ -17,4 +17,7 @@ pub struct Args {
 
     #[arg(long)]
     pub header: Vec<String>,
+
+    #[arg(long, default_value = "plain")]
+    pub format: String,
 }
